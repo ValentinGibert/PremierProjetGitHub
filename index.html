@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Premier projet</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
 </head>
-<body style="background-color:#eeeeee; margin: auto; text-align: center;">
-    <h1>Premier projet</h1>
+<body style="background-color:#eeeeee; margin: auto; text-align: center;" class="container-fluid">
     <nav class="navbar navbar-expand-custom navbar-mainbg">
         <a class="navbar-brand navbar-logo" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,5 +102,99 @@
           
           <br /><br />
           <p class='text-1'>Resposive pure CSS <a href="http://cssslider.com">slider</a> with CSS3 animations, autoplay, kenburns, prev/next,<br /> bullets  with tooltips - no JavaScript! Vector icons only - no images. </p>
+               <section class="search">
+                  <form class="row text-center">
+                     <div id="query-box" class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                        <h1>I want to learn&nbsp;about</h1> 
+                        <div class="input-group">
+                           <input id="query" type="text" class="form-control" accept="audio/*" autocomplete="on" autofocus aria-label="write here what you want to learn about">
+                           <span class="input-group-btn">
+                             <button id="query-button" class="btn btn-default" type="submit">Go!</button>
+                           </span>
+                        </div><!-- /input-group -->
+                     </div> <!-- col -->
+                  </form> <!-- row -->
+                  <div class="row">
+                     <div class="col-xs-8 col-xs-offset-2 text-center">
+                        <div id="no-query" class="hidden">
+                           <h2>Don't resign from a chance to learn something new.<br/>Try <span class="accent-hint">Choose For Me</span> option.</h2>
+                        </div>
+                        <button id="random" class="btn btn-default">
+                           Choose For Me
+                        </button>
+                     </div> <!-- col -->
+                  </div> <!-- row -->
+               </section> 
+               
+               <section class="intro row">
+                  <img id="intro-image" alt="The picture showing a learning boy" class="img-responsive center-block" src="http://theonewhodo.es/wikipedia-viewer/learn.png"/>
+               </section> <!-- row -->
+               
+               <section class="random-result row">
+                  <div class="yellow-box col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                     <h2 id="random-result-title"></h2>
+                     <div id="random-result"></div>
+                  </div> <!-- col -->
+               </section> <!-- row -->
+               
+               <section class="list-result row">
+                  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                     <ul id="article-list"></ul>
+                  </div> <!-- col -->
+               </section>  <!-- row -->
+               
+                 <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+           <a href="#">Scanfcode</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
 </body>
 </html>
